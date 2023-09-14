@@ -389,7 +389,28 @@ a:focus {
     background: rgba(255, 255, 255, .1);
 }
 
-
+@media(max-width: 767.98px) {
+    .header p {
+        color: #FF6F61;
+        font-size: 21px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-left: -38px;
+    }
+    .header h1 {
+        color: #222222;
+        font-size: 38px;
+        font-weight: 600;
+        margin-left: -38px;
+    }
+    .header h2 {
+        display: inline-block;
+        margin: 0;
+        height: 25px;
+        font-size: 20px;
+        margin-left: -38px;
+    }
+}
 /**********************************/
 /******* Content Header CSS *******/
 /**********************************/
@@ -1089,6 +1110,7 @@ a:focus {
         text-align: center;
     }
 }
+
 
 .footer p {
     color: #222222;
